@@ -6,7 +6,7 @@ use Kerisy\Http\Controller;
 
 class IndexController extends \Kerisy\Http\Controller
 {
-    public function index($request, \Kerisy\Http\Response $response)
+    public function index(\Kerisy\Http\Request $request, \Kerisy\Http\Response $response)
     {
         return $response->view('core/index');
     }

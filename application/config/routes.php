@@ -26,7 +26,7 @@ return [
         'prefix' => 'Api',
         'directory' => 'api',
         'routes' => [
-            ['GET', '/', 'core/test/get'],
+            ['GET', 'get', 'core/test/get'],
         ]
     ],
 ];
