@@ -22,13 +22,13 @@ return [
         'class' => 'Kerisy\Session\Manager',
         'expires' => 3600 * 24 * 15,
 // Use Redis Storage
-        'storage' => [
-            'class' => 'Kerisy\Session\RedisStorage',
-            'host' => '127.0.0.1',
-            'port' => 6379,
-            'password' => '',
-            'prefix' => 'session_'
-        ]
+//        'storage' => [
+//            'class' => 'Kerisy\Session\RedisStorage',
+//            'host' => '127.0.0.1',
+//            'port' => 6379,
+//            'password' => '',
+//            'prefix' => 'session_'
+//        ]
 // Use Memcache Storage
 //        'storage' => [
 //            'class' => 'Kerisy\Session\MemcacheStorage',
@@ -37,10 +37,10 @@ return [
 //            'prefix' => 'session_'
 //        ]
 // Use FileSystem Storage
-//        'storage' => [
-//            'class' => 'Kerisy\Session\FileStorage',
-//            'path' => __DIR__ . '/../../runtime/sessions'
-//        ]
+        'storage' => [
+            'class' => 'Kerisy\Session\FileStorage',
+            'path' => __DIR__ . '/../runtime/sessions'
+        ]
     ],
     'auth' => [
         'class' => 'Kerisy\Auth\Auth',
