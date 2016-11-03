@@ -1,0 +1,21 @@
+{
+    "name": "Kerisy/boilerplate",
+    "description": "Kerisy framework boilerplate",
+    "type": "project",
+    "require": {
+        "Kerisy/framework": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wangwang",
+            "email": "hpuwang@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
