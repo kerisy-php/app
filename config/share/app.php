@@ -10,10 +10,6 @@ return [
         "secure"=>false,
         "httponly"=>true,
     ],
-    "adapter"=>[
-        "database"=>"default",//pool or default
-        "redis"=>"default"
-    ],
     "aliases"=>[],
     "di"=>[],
     "command"=>[],
@@ -29,7 +25,9 @@ return [
     "middleware"=>[
 //        "author"=>\Kerisy\Test\Lib\Middleware\Author::class
     ],
-    "task"=>[],
+    "task"=>[
+        "test"=>\App\Task\Test::class
+    ],
     "view"=>[
         "path"=>__DIR__."/../../resource/views",
         "theme"=>"default",

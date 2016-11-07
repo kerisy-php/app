@@ -6,20 +6,22 @@
  */
 return [
     "pdo"=>[
+        "adapter"=>"pool",//pool or default
         "type" => "mysql",
-        "prefix" => "putao_",
+        "prefix" => "psm_",
         "master" =>[
             "host" => "",
             "user" => "root",
             "port" => "3306",
-            "password" => "",
-            "db_name" => "",
+            "password" => "123456",
+            "db_name" => "putao_site_monitor",
             "timeout"=>5,
         ]
     ],
     "redis"=>[
+        "adapter"=>"default",//pool or default
         "servers"=>[
-//            "tcp://127.0.0.1:6379",
+            "tcp://127.0.0.1:6379",
         ],
         "options"=>[
             'prefix'  => 'test',

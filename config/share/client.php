@@ -18,14 +18,4 @@ return [
         'package_max_length' => 2000000000,
        
     ],
-    "pool"=>[
-        "host" => "127.0.0.1",
-        "port" => "9001",
-        "timeout" => 3,
-        "serialization" => 1,
-        "alway_keep"=>true,
-        "pdo"=>[
-            "prefix"=>"putao_"
-        ],
-    ],
 ];
