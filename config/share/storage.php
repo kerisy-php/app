@@ -6,11 +6,10 @@
  */
 return [
     "pdo"=>[
-        "adapter"=>"pool",//pool or default
         "type" => "mysql",
         "prefix" => "psm_",
         "master" =>[
-            "host" => "",
+            "host" => "10.1.11.166",
             "user" => "root",
             "port" => "3306",
             "password" => "123456",
@@ -19,7 +18,6 @@ return [
         ]
     ],
     "redis"=>[
-        "adapter"=>"default",//pool or default
         "servers"=>[
             "tcp://127.0.0.1:6379",
         ],

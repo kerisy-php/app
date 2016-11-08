@@ -9,14 +9,6 @@ return [
 //    "servers" => ['httpd','rpc','job'],
 //    "servers" => ['httpd'],
     "servers" => ['httpd','rpc'],
-    "pool" => [
-        "task_timeout" => 0.5,
-        "task_fail_log" => ROOT_PATH . "/storage/tmp/pool_task_fail_log",
-        "pool_worker_number" => [
-            "pdo" => 4,
-            "redis" =>2
-        ],
-    ],
     "httpd" => [
         "server" => [
             "host" => "0.0.0.0",
