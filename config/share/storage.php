@@ -26,5 +26,12 @@ return [
             'cluster' => 'redis',
             "timeout"=>9,
         ],
+    ],
+    "memcache"=>[
+        'server_1' => array(
+            'hostname'   => '127.0.0.1',
+            'port'   => 11211,
+            'weight' => 1
+        ),
     ]
 ];
