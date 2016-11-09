@@ -1,11 +1,4 @@
-# Kerisy skeleton project
-Simple skeleton project for kerisy framework.
+# boilerplate
+Kerisy  boilerplate
 
-# Run
-
-```bash
-git clone https://github.com/kerisy/app
-cd app
-composer install -vvv
-php kerisy server run
-```
+see  [Kerisy framework 3.0](https://github.com/Kerisy/framework/tree/3.x)
