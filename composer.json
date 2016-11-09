@@ -3,7 +3,7 @@
     "description": "Kerisy framework boilerplate",
     "type": "project",
     "require": {
-        "kerisy/framework": "3.x"
+        "kerisy/framework": "3.0.x"
     },
     "license": "MIT",
     "authors": [
