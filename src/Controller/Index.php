@@ -1,9 +1,14 @@
 <?php
 
 /**
- * User: Peter Wang
- * Date: 16/9/13
- * Time: 下午3:18
+ * Kerisy Framework
+ *
+ * PHP Version 7
+ *
+ * @author          kaihui.wang <hpuwang@gmail.com>
+ * @copyright      (c) 2015 putao.com, Inc.
+ * @package         kerisy/framework
+ * @version         3.0.0
  */
 namespace App\Controller;
 
@@ -15,24 +20,6 @@ class Index extends Controller
 
     public function index()
     {
-
-//        $daoObj = new HeartLogDao();
-//        $daoObj->insertOne();
-//        dump($daoObj->getOne());
-//        dump($daoObj->getSql());
-//        \Task::test("wang");
-//        cache()->set("wang","k");
-//        cache()->get("wang");
-//        cache()->get("wang");
-//        cache()->get("wang");
-//        cache()->get("wang");
-//        cache()->get("wang");
-//        cache()->get("wang");
-//        cache()->get("wang");
-//        cache()->get("wang");
-//        dump(cache()->get("wang"));
-        mcache()->set("w","hello");
-        dump(mcache()->get("w"));
         $this->view->me = "Kerisy";
         return $this->render("index/index");
     }
