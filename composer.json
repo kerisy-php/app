@@ -1,9 +1,9 @@
 {
-    "name": "Kerisy/boilerplate",
+    "name": "kerisy/boilerplate",
     "description": "Kerisy framework boilerplate",
     "type": "project",
     "require": {
-        "Kerisy/framework": "3.x"
+        "kerisy/framework": "3.0.x"
     },
     "license": "MIT",
     "authors": [

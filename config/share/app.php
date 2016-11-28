@@ -39,5 +39,6 @@ return [
             "map_path"=>"resource/map",
             "view_path"=>"resource/views",
         ]
-    ]
+    ],
+//    "log"=>\App\Lib\Log\Test::class,
 ];
