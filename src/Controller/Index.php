@@ -12,7 +12,6 @@
 namespace App\Controller;
 
 use Kerisy\Foundation\Controller;
-use App\Lib\Dao\HeartLogDao;
 
 class Index extends Controller
 {
