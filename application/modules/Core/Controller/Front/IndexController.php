@@ -1,6 +1,6 @@
 <?php
 /**
- * 关联页
+ * 首页
  */
 
 namespace App\Core\Controller\Front;
