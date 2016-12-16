@@ -1,16 +1,13 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
     <title>@yield('title')</title>
 </head>
-@require('/resource/static/css/normalize.css')
-@require('/resource/static/css/style.css')
-@placeholder('styles')
-@framework("/resource/static/js/mod.js")
 <body>
-<div class="container">
-    @yield('content')
-</div>
-@placeholder('framework')
-@placeholder('scripts')
+@yield('content')
 </body>
 </html>

@@ -12,14 +12,14 @@ fis.hook('commonjs', {
   ],
   extList: ['.js', '.jsx', '.es', '.ts', '.tsx'],
   paths: {
-   "jquery": "/resource/static/modules/jquery/jquery-3.1.1.min.js",
-    $: "/resource/static/modules/jquery/jquery-3.1.1.min.js"
+   // "jquery": "/resource/static/modules/jquery/jquery-3.1.1.min.js",
+   //  $: "/resource/static/modules/jquery/jquery-3.1.1.min.js"
   }
 });
 
 
 //所有静态文件都要用指纹
-fis.match('/resource/static/**.{js,css,png,jpg,gif}', {
+fis.match('/resource/static/**.{js,css,png,jpg,gif,ico}', {
   useHash: true
 });
 
@@ -69,8 +69,7 @@ fis.match('/resource/static/*.tmpl', {
 });
 
 // 在 prod 环境下，开启各种压缩和打包。
-fis.media('prod')
-  .match('/resource/static/*.js', {
+fis.media('prod').match('/resource/static/*.js', {
     optimizer: fis.plugin('uglify-js')
   })
   .match('/resource/static/*.css', {

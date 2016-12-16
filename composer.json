@@ -15,7 +15,8 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "App\\": "src"
+            "App\\": "application/modules",
+            "Lib\\": "libraries"
         }
     }
 }

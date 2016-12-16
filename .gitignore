@@ -5,3 +5,4 @@
 /storage/public/
 /composer.lock
 /node_modules
+/application/config/wkh/

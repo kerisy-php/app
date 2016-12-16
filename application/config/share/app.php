@@ -26,12 +26,12 @@ return [
 //        "author"=>\Kerisy\Test\Lib\Middleware\Author::class
     ],
     "task"=>[
-        "test"=>\App\Task\Test::class
+//        "test"=>\App\Task\Test::class
     ],
     "view"=>[
-        "path"=>__DIR__."/../../resource/views",
+        "path"=>ROOT_PATH."/resource/views",
         "theme"=>"default",
-        "compile_path"=>__DIR__."/../../storage/tplcompile",
+        "compile_path"=>ROOT_PATH."/storage/tplcompile",
         "engine"=>"blade",
         "page404"=>"page404",
         "fis"=>[
@@ -39,10 +39,5 @@ return [
             "map_path"=>"resource/map",
             "view_path"=>"resource/views",
         ]
-<<<<<<< HEAD
-    ],
-//    "log"=>\App\Lib\Log\Test::class,
-=======
     ]
->>>>>>> 3eece9cdc592fd09c2e6b68fecf313c4da8b9105
 ];
